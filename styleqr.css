@@ -1,0 +1,30 @@
+/* CSS tren desktop */
+html {
+    font-family: 'Outfit';
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+}
+.qr-app {
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    margin:auto;
+    border-radius: 10px;
+    padding: 16px;
+}
+.qr-container,
+.qr-content {
+    width: 100%;
+}
+.qr-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.qr-content {
+    font-size: 15px;
+    text-align: center;
+}
